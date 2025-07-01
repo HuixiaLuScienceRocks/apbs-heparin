@@ -1,0 +1,30 @@
+read
+  mol pqr hep.pqr
+end
+elec
+  mg-auto
+  dime 129 129 129
+  cglen 159.97949981689453 56.70599985122681 64.59300327301025
+  cgcent mol 1
+  fglen 159.97949981689453 56.70599985122681 64.59300327301025
+  fgcent mol 1
+  mol 1
+  npbe
+  bcfl sdh
+  srfm smol
+  chgm spl2
+  ion 1 0.150 2.0
+  ion -1 0.150 2.0
+  pdie  1.0
+  sdie  78.54
+  sdens  10.0
+  srad  1.4
+  swin  0.3
+  temp  298.15
+  gamma  0.105
+  calcenergy no
+  calcforce no
+  write charge dx charge
+  write pot dx pot
+end
+quit
